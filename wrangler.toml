@@ -1,12 +1,12 @@
 name = "aris"
 main = "_worker.js"
-compatibility_date = "2023-05-26"
+compatibility_date = "2026-03-17"
 [[routes]]
 pattern = "aripin.ogika.my.id"
 custom_domain = true
 
 [[routes]]
-pattern = "dev.speedtest.net.ogika.my.id"
+pattern = "www.speedtest.net.ogika.my.id"
 custom_domain = true
 
 [[routes]]

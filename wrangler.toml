@@ -1,6 +1,8 @@
 name = "adtt"
 main = "_worker.js"
 compatibility_date = "2026-03-17"
+workers_dev = true
+
 [[routes]]
 pattern = "aripin.ogika.my.id"
 custom_domain = true
@@ -12,8 +14,6 @@ custom_domain = true
 [[routes]]
 pattern = "cdn.who.int.ogika.my.id"
 custom_domain = true
-# node_compat = true
-workers_dev = true
 
 [vars]
 # PROXYIP = "143.42.66.91:443"
